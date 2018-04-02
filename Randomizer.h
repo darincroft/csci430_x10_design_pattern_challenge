@@ -5,8 +5,9 @@ class Randomizer {
 	private:
 		unsigned int number;
 	public:
-		Randomizer();
+		static Randomizer();
 		unsigned int randomBetween(unsigned int minimum, unsigned int maximum);
+		unsigned int get_num();
 
 };
 
